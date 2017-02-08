@@ -11,7 +11,7 @@ class Converter
   def c_to_f
    # Multiply by 9, then divide by 5, then add 32
    # For instance, 12C == 53.6F
-   ((number * 9)/5) + 32
+   ((number.to_f * 9)/5) + 32
   end
 
   def f_to_c
